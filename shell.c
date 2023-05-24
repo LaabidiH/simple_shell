@@ -15,7 +15,6 @@ size_t n = 0;
 (void)argv;
 printf("%s", prompt);
 getline(&lineptr, &n, stdin);
-printf("%s\n", lineptr);
-free(lineptr);
+printf("%s\n", l);
 return (0);
 }
