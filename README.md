@@ -2,6 +2,6 @@ this project is for challenging ourself a lot about everything you have learn so
 
 Basics of programming
 Basics of C
-Basics of thinking like an engineer
+Basics of thinking like a softwar engineer
 Group work
 and Learning how to learn
