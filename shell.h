@@ -3,6 +3,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 int clean(void);
-int shell(int,char**);
+int shell(int, char**);
 #endif
 
