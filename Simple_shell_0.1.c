@@ -1,6 +1,9 @@
 #include <cstdio>
 #include <cstdlib>
-
+/**
+ * Handle command lines with arguments
+ *
+ */
 int main(int argc, char* argv[]) {
     if (argc < 4) {
         printf("Insufficient arguments.\n");
