@@ -1,6 +1,6 @@
 #include <shell.h>
 /**
- * main - Writing a beautiful program that passes the Betty checks.
+ * clean - Writing a beautiful program that passes the Betty checks.
  *
  * Return: Always 0 (Success)
  */
