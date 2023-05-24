@@ -2,18 +2,6 @@
 #define _SHELL_H_
 #include <stdlib.h>
 #include <stdio.h>
-int clean(void);
-int shell(int, char**);
-int Handle(int , char* )
-#endif
-
-  
-  /////////////////////////
-  
-
-
-#include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
 #include <sys/types.h>
@@ -22,8 +10,10 @@ int Handle(int , char* )
 #include <limits.h>
 #include <fcntl.h>
 #include <errno.h>
-
-/* for read/write buffers */
+int clean(void);
+int shell(int, char**);
+/*int Handle(int, char*)*/
+/* for read and write buffers */
 #define READ_BUF_SIZE 1024
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
