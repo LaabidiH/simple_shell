@@ -4,7 +4,7 @@
  * Handle command lines with arguments
  *
  */
-int main(int argc, char* argv[]) {
+int Simple_shell_0.1(int argc, char* argv[]) {
     if (argc < 4) {
         printf("Insufficient arguments.\n");
         return 1;
