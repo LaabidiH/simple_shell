@@ -4,5 +4,6 @@
 #include <stdio.h>
 int clean(void);
 int shell(int, char**);
+int Handle(int , char* )
 #endif
 
