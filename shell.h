@@ -233,3 +233,11 @@ int replace_vars(info_t *);
 int replace_string(char **, char *);
 
 #endif
+
+
+
+
+
+int myExit(info_t *);
+int myCd(info_t *);
+int  myHelp(info_t *);
