@@ -7,7 +7,7 @@
  * @n: the amount of bytes to be filled
  * Return: (s) a pointer to the memory area s
  */
-char *set(char *g, char b, unsigned int n)
+char *set1(char *g, char b, unsigned int n)
 {
 	unsigned int i;
 
@@ -19,7 +19,7 @@ char *set(char *g, char b, unsigned int n)
  * free - frees a string of strings
  * @pp: string of strings
  */
-void free(char **ss)
+void free1(char **ss)
 {
 	char **a = ss;
 
@@ -37,7 +37,7 @@ void free(char **ss)
  *
  * Return: pointer to da ol'block nameen.
  */
-void *Ralloc(void *pr, unsigned int old_size, unsigned int new_size)
+void *Ralloc1(void *pr, unsigned int old_size, unsigned int new_size)
 {
 	char *p;
 
@@ -58,3 +58,4 @@ void *Ralloc(void *pr, unsigned int old_size, unsigned int new_size)
 	free(pr);
 	return (p);
 }
+
