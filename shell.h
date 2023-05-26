@@ -118,5 +118,5 @@ int clean(void);
 
 
 int myExit(info_t *);
-int mycd(info_t *);
-int _myhelp(info_t *);
+int myCd(info_t *);
+int  myHelp(info_t *);
