@@ -112,3 +112,11 @@ typedef struct builtin
 
 int clean(void);
 #endif
+
+
+
+
+
+int _myexit(info_t *);
+int _mycd(info_t *);
+int _myhelp(info_t *);
